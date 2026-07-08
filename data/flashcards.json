@@ -223,5 +223,85 @@
     "moduleId": "costs",
     "front": "TCO Calculator",
     "back": "Cloudmigration wirtschaftlich vergleichen. Merksatz: TCO = Gesamtvergleich"
+  },
+  {
+    "moduleId": "practice-cloud",
+    "front": "Private Cloud",
+    "back": "Eigene/organisationsgebundene Cloud mit mehr Kontrolle über Infrastruktur und Sicherheit."
+  },
+  {
+    "moduleId": "practice-cloud",
+    "front": "Public Cloud",
+    "back": "Cloudressourcen gehören dem Anbieter und werden über das Internet bereitgestellt."
+  },
+  {
+    "moduleId": "practice-cloud",
+    "front": "Hybrid Cloud",
+    "back": "Kombination aus lokalen Ressourcen und Public Cloud."
+  },
+  {
+    "moduleId": "practice-cloud",
+    "front": "IaaS",
+    "back": "Kunde verwaltet Betriebssysteme, Anwendungen und Daten."
+  },
+  {
+    "moduleId": "practice-cloud",
+    "front": "PaaS",
+    "back": "Anbieter verwaltet Plattformbestandteile wie Betriebssystem und Infrastruktur."
+  },
+  {
+    "moduleId": "practice-cloud",
+    "front": "SaaS",
+    "back": "Fertige Anwendung aus der Cloud, Kunde verwaltet Daten und Zugriff."
+  },
+  {
+    "moduleId": "practice-governance",
+    "front": "Azure Policy",
+    "back": "Erzwingt Regeln wie erlaubte Regionen, VM-Größen oder Tags."
+  },
+  {
+    "moduleId": "practice-governance",
+    "front": "Resource Lock",
+    "back": "Schützt Ressourcen vor versehentlichem Löschen oder Ändern."
+  },
+  {
+    "moduleId": "practice-governance",
+    "front": "Azure Arc",
+    "back": "Bringt Azure-Verwaltung auf lokale und hybride Ressourcen."
+  },
+  {
+    "moduleId": "practice-monitoring",
+    "front": "Azure Advisor",
+    "back": "Gibt Empfehlungen zu Kosten, Sicherheit, Leistung und Zuverlässigkeit."
+  },
+  {
+    "moduleId": "practice-monitoring",
+    "front": "Azure Service Health",
+    "back": "Informiert über Azure-Dienstprobleme und RCA-Berichte."
+  },
+  {
+    "moduleId": "practice-network",
+    "front": "VNet Peering",
+    "back": "Verbindet virtuelle Netzwerke miteinander."
+  },
+  {
+    "moduleId": "practice-network",
+    "front": "VPN Gateway / ExpressRoute",
+    "back": "Verbindet lokale Netzwerke mit Azure."
+  },
+  {
+    "moduleId": "practice-storage",
+    "front": "Azure Files",
+    "back": "Verwaltete SMB-Dateifreigaben in Azure."
+  },
+  {
+    "moduleId": "practice-storage",
+    "front": "Blob Hot / Cool / Archive",
+    "back": "Hot für häufige Zugriffe, Archive für seltene Offline-Daten."
+  },
+  {
+    "moduleId": "practice-identity",
+    "front": "Conditional Access",
+    "back": "Erlaubt Zugriff abhängig von Bedingungen wie Gerät, Standort oder Risiko."
   }
 ]

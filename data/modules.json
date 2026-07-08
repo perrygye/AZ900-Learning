@@ -52,5 +52,53 @@
     "title": "Endgame Kosten & SLA",
     "stage": "Endgame",
     "unlock": 60
+  },
+  {
+    "id": "practice-cloud",
+    "title": "Praxisprüfung: Cloudkonzepte",
+    "stage": "V2",
+    "unlock": 0
+  },
+  {
+    "id": "practice-governance",
+    "title": "Praxisprüfung: Governance & Verwaltung",
+    "stage": "V2",
+    "unlock": 0
+  },
+  {
+    "id": "practice-architecture",
+    "title": "Praxisprüfung: Architektur & Hochverfügbarkeit",
+    "stage": "V2",
+    "unlock": 0
+  },
+  {
+    "id": "practice-compute",
+    "title": "Praxisprüfung: Compute",
+    "stage": "V2",
+    "unlock": 0
+  },
+  {
+    "id": "practice-network",
+    "title": "Praxisprüfung: Netzwerk",
+    "stage": "V2",
+    "unlock": 0
+  },
+  {
+    "id": "practice-storage",
+    "title": "Praxisprüfung: Storage",
+    "stage": "V2",
+    "unlock": 0
+  },
+  {
+    "id": "practice-identity",
+    "title": "Praxisprüfung: Identität & Zugriff",
+    "stage": "V2",
+    "unlock": 0
+  },
+  {
+    "id": "practice-monitoring",
+    "title": "Praxisprüfung: Monitoring & Advisor",
+    "stage": "V2",
+    "unlock": 0
   }
 ]

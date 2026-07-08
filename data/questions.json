@@ -2758,5 +2758,853 @@
     "explanation": "SMB-Dateifreigaben sind Azure Files; Bilder/Backups eher Blob.",
     "tip": "Netzlaufwerk = Files",
     "source": "Microsoft Learn AZ-900 Modul: V2 Storage"
+  },
+  {
+    "id": "q0146",
+    "moduleId": "practice-cloud",
+    "level": 2,
+    "type": "multi",
+    "question": "Welche beiden Attribute sind Merkmale des Private-Cloud-Bereitstellungsmodells?",
+    "options": [
+      "Anwendungen können schnell bereitgestellt und aufgehoben werden.",
+      "Hardware muss erworben werden.",
+      "Das Unternehmen hat die vollständige Kontrolle über physische Ressourcen und Sicherheit.",
+      "Dienste werden über das Internet angeboten und stehen jedem zur Verfügung."
+    ],
+    "answer": [
+      1,
+      2
+    ],
+    "explanation": "Bei einer Private Cloud besitzt oder kontrolliert die Organisation typischerweise die zugrunde liegende Infrastruktur stärker selbst. Hardware muss häufig selbst beschafft werden und das Unternehmen behält Kontrolle über physische Ressourcen und Sicherheitsvorgaben.",
+    "tip": "Private Cloud = mehr eigene Kontrolle, aber auch mehr eigene Verantwortung.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0147",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "multi",
+    "question": "Was sind zwei grundlegende Dienste, die von allen Cloudanbietern bereitgestellt werden?",
+    "options": [
+      "Compute/Berechnung",
+      "Speicher",
+      "Colocation",
+      "Lokale Druckdienste"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Cloudanbieter stellen grundlegende Rechenleistung und Speicherdienste bereit. Darauf bauen viele weitere Cloudservices auf.",
+    "tip": "Cloud-Grundlage = Compute + Storage.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0148",
+    "moduleId": "practice-cloud",
+    "level": 2,
+    "type": "multi",
+    "question": "Was sind zwei Merkmale des Public-Cloud-Bereitstellungsmodells?",
+    "options": [
+      "Server und Speicher gehören einem Drittanbieter für Cloud-Dienste und werden von diesem betrieben.",
+      "Die Dienstleistungen werden über das Internet angeboten und stehen jedem zur Verfügung, der sie kaufen möchte.",
+      "Das Unternehmen besitzt die gesamte Hardware selbst.",
+      "Die Cloud ist ausschließlich für eine einzige Organisation verfügbar."
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "In der Public Cloud werden Ressourcen von einem Cloudanbieter betrieben und über das Internet bereitgestellt. Kundinnen und Kunden nutzen diese Dienste nach Bedarf.",
+    "tip": "Public Cloud = Anbieter betreibt, Kunde nutzt über Internet.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0149",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "multi",
+    "question": "Welche beiden Merkmale sind häufige Vorteile von Cloud Computing?",
+    "options": [
+      "Geoverteilung",
+      "Hochverfügbarkeit",
+      "Manuelles Hardware-Patching",
+      "Feste lokale Kapazität"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Clouddienste können georedundant bereitgestellt werden und hohe Verfügbarkeit bieten. Dadurch lassen sich Ausfälle besser abfedern als bei rein lokalen Einzelstandorten.",
+    "tip": "Cloud-Vorteile: weltweit verfügbar und ausfallsicherer.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0150",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Was ist ein Vorteil von Cloud Computing im Vergleich zu lokalen Bereitstellungen?",
+    "options": [
+      "Sie können von mehreren Arbeitsstationen aus arbeiten.",
+      "Sie können schneller skalieren.",
+      "Sie müssen eigene Server kaufen.",
+      "Sie haben keine Internetabhängigkeit."
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Cloud Computing ermöglicht es, Ressourcen bei Bedarf schneller hoch- oder herunterzuskalieren. Lokal muss dafür meist erst Hardware beschafft werden.",
+    "tip": "Cloud = schneller skalieren statt Hardware kaufen.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0151",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Welches Cloudbereitstellungsmodell verwenden Sie, wenn sich einige Server physisch im Rechenzentrum Ihrer Organisation befinden und Sie einige Server in die Cloud migrieren?",
+    "options": [
+      "Private Cloud",
+      "Public Cloud",
+      "Hybridcloud",
+      "Community Cloud"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Eine Hybridcloud kombiniert lokale/private Ressourcen mit Public-Cloud-Ressourcen.",
+    "tip": "Hybrid = lokal plus Cloud.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0152",
+    "moduleId": "practice-cloud",
+    "level": 2,
+    "type": "single",
+    "question": "Was sind cloudbasierte Sicherungsdienste, Datenreplikation und Geoverteilungsfunktionen?",
+    "options": [
+      "eine flexible Anwendungskonfiguration",
+      "ein Notfallwiederherstellungsplan",
+      "eine Kostenanalyse",
+      "eine Identitätsrichtlinie"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Backups, Replikation und Geoverteilung helfen, Dienste im Ausfallfall wiederherzustellen oder weiter verfügbar zu halten. Das gehört zum Disaster-Recovery-Konzept.",
+    "tip": "Backup + Replikation = Disaster Recovery.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0153",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Ein Beispiel für welche Cloudfähigkeit ist die automatische Skalierung einer Anwendung, damit sie die benötigten Ressourcen erhält?",
+    "options": [
+      "Elastizität",
+      "Georedundanz",
+      "Mandantenfähigkeit",
+      "CapEx"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Elastizität beschreibt die Fähigkeit, Ressourcen automatisch an Bedarf anzupassen.",
+    "tip": "Elastizität = automatisch mehr oder weniger Ressourcen.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0154",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Welcher Cloudvorteil wird erreicht, indem Cloudressourcen über mehrere Azure-Regionen verteilt werden?",
+    "options": [
+      "Hochverfügbarkeit",
+      "Geringere Latenz garantiert",
+      "Colocation",
+      "CapEx"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Wenn Dienste über mehrere Regionen verteilt werden, lassen sich regionale Ausfälle besser abfedern. Das unterstützt Hochverfügbarkeit und Resilienz.",
+    "tip": "Mehrere Regionen = höhere Ausfallsicherheit.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0155",
+    "moduleId": "practice-cloud",
+    "level": 2,
+    "type": "multi",
+    "question": "In welchen beiden Bereitstellungsmodellen sind Kunden für die Verwaltung von Betriebssystemen verantwortlich, die Anwendungen hosten?",
+    "options": [
+      "IaaS (Infrastructure-as-a-Service)",
+      "Vor Ort",
+      "PaaS",
+      "SaaS"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Bei IaaS und lokalen Bereitstellungen verwaltet der Kunde das Betriebssystem. Bei PaaS und SaaS übernimmt der Anbieter mehr Verantwortung.",
+    "tip": "OS-Verantwortung: lokal und IaaS.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0156",
+    "moduleId": "practice-cloud",
+    "level": 2,
+    "type": "multi",
+    "question": "Welche beiden Komponenten in einem Platform-as-a-Service-Modell (PaaS) sind die Verantwortung des Cloudanbieters?",
+    "options": [
+      "Betriebssysteme",
+      "physisches Netzwerk",
+      "Informationen und Daten",
+      "Benutzerzugriff"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Bei PaaS verwaltet der Anbieter die Plattformbestandteile wie Betriebssysteme, physische Hosts und Netzwerk. Der Kunde verantwortet Daten, Konten und Zugriffe.",
+    "tip": "PaaS = Anbieter verwaltet Plattform, Kunde App/Daten.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0157",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "In welchem Clouddienstmodell ist der Kunde für die Verwaltung des Betriebssystems verantwortlich?",
+    "options": [
+      "SaaS",
+      "PaaS",
+      "IaaS",
+      "Serverless"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Bei IaaS stellt der Anbieter Infrastruktur bereit, aber das Betriebssystem wird vom Kunden verwaltet.",
+    "tip": "IaaS = du verwaltest das OS.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0158",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Wofür ist der Kunde in einem SaaS-Modell verantwortlich?",
+    "options": [
+      "Daten und Zugriff",
+      "Physische Server",
+      "Betriebssystem",
+      "Hypervisor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Bei SaaS nutzt der Kunde eine fertige Anwendung. Er verantwortet vor allem Daten, Benutzer und Zugriffskonfiguration.",
+    "tip": "SaaS = App fertig, du verwaltest Daten und Zugriff.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0159",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Welches Clouddienstmodell wird von Microsoft 365 verwendet?",
+    "options": [
+      "IaaS",
+      "PaaS",
+      "SaaS (Software-as-a-Service)",
+      "Private Cloud"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Microsoft 365 ist eine fertige Cloudanwendung, die über das Internet genutzt wird. Das entspricht SaaS.",
+    "tip": "Microsoft 365 = SaaS.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0160",
+    "moduleId": "practice-architecture",
+    "level": 1,
+    "type": "single",
+    "question": "Welche Antwort schließt den Satz richtig ab: Verfügbarkeitszonen sind physisch getrennte Rechenzentren innerhalb einer Azure-Region.",
+    "options": [
+      "Verfügbarkeitszonen",
+      "Geografien",
+      "Regionspaare",
+      "Ressourcengruppen"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Verfügbarkeitszonen sind getrennte Standorte innerhalb einer Azure-Region mit eigener Stromversorgung, Kühlung und Netzwerk.",
+    "tip": "Zone = getrenntes Rechenzentrum innerhalb einer Region.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0161",
+    "moduleId": "practice-governance",
+    "level": 1,
+    "type": "single",
+    "question": "Für welche Ressource generiert Azure standardmäßig separate Abrechnungsberichte und Rechnungen?",
+    "options": [
+      "Konten",
+      "Verwaltungsgruppen",
+      "Ressourcengruppen",
+      "Abonnements"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Azure-Abrechnung und Rechnungen werden standardmäßig auf Abonnementebene erstellt.",
+    "tip": "Billing = Abonnement.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0162",
+    "moduleId": "practice-governance",
+    "level": 1,
+    "type": "single",
+    "question": "Welche Antwort schließt den Satz richtig ab: Azure Resource Manager (ARM) ist der Bereitstellungs- und Verwaltungsdienst für Azure.",
+    "options": [
+      "Microsoft Entra",
+      "Azure-API-Verwaltung",
+      "Azure Monitor",
+      "Azure Resource Manager (ARM)"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "ARM ist die zentrale Ebene, über die Azure-Ressourcen erstellt, aktualisiert und gelöscht werden.",
+    "tip": "ARM = Azure-Verwaltungsebene.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0163",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "multi",
+    "question": "Welche beiden Faktoren wirken sich auf Azure-Kosten aus?",
+    "options": [
+      "Ausgehende Datenübertragungen",
+      "Der Speicherort einer Ressource",
+      "Die Anzahl der Ressourcengruppen in einem Abonnement",
+      "Verwendung von Azure Resource Manager (ARM)-Vorlagen"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Kosten werden unter anderem durch ausgehenden Datenverkehr und die Region beziehungsweise den Speicherort einer Ressource beeinflusst.",
+    "tip": "Kosten = Nutzung + Region + ausgehender Traffic.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0164",
+    "moduleId": "practice-governance",
+    "level": 1,
+    "type": "single",
+    "question": "Was kann auf eine Ressource angewendet werden, um versehentliche Löschungen zu verhindern?",
+    "options": [
+      "Eine Ressourcensperre",
+      "ein Ressourcentag",
+      "eine Richtlinie",
+      "Eine Azure-Reservierung"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Eine Ressourcensperre kann verhindern, dass Ressourcen versehentlich gelöscht oder verändert werden.",
+    "tip": "Lock = Schutz vor Löschen.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0165",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Was können Sie verwenden, um sicherzustellen, dass neue und vorhandene Azure-Ressourcen den Unternehmensstandards entsprechen?",
+    "options": [
+      "Azure Advisor",
+      "Azure-Richtlinie",
+      "Ressourcensperren",
+      "Ressourcenkennzeichnungen"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Azure Policy erzwingt und überprüft Unternehmensstandards für Azure-Ressourcen.",
+    "tip": "Policy = Standards erzwingen.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0166",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Sie müssen eine Lösung für Bereitstellungen virtueller Azure-Computer empfehlen. Die Lösung muss Unternehmensstandards auf den virtuellen Computern erzwingen. Was sollte in der Empfehlung enthalten sein?",
+    "options": [
+      "Microsoft Intune-Compliancerichtlinie",
+      "Azure Cost Management",
+      "Azure Lock",
+      "Azure-Richtlinie"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Azure Policy kann Bereitstellungen prüfen und Vorgaben wie erlaubte Regionen, Größen oder Konfigurationen erzwingen.",
+    "tip": "VM-Standards = Azure Policy.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0167",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Sie müssen sicherstellen, dass virtuelle Azure-Computer nur bereitgestellt werden können, wenn sie über vier oder weniger virtuelle Prozessoren verfügen. Was sollten Sie implementieren?",
+    "options": [
+      "Azure-Richtlinie",
+      "Ressourcensperren",
+      "Ressourcenkennzeichnungen",
+      "Rahmenwerk zur Cloud-Einführung"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Azure Policy kann erlaubte VM-Größen oder Eigenschaften einschränken und nicht konforme Bereitstellungen verhindern.",
+    "tip": "Max. vCPU = Policy-Regel.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0168",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Was können Sie verwenden, um die Bereitstellung eines virtuellen Computers auf einen bestimmten Speicherort zu beschränken?",
+    "options": [
+      "Microsoft Defender für Cloud",
+      "Azure-Richtlinie",
+      "Ressourcengruppen",
+      "Ressourcensperren"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Azure Policy kann erlaubte Speicherorte beziehungsweise Regionen für Ressourcen erzwingen.",
+    "tip": "Region begrenzen = Azure Policy.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0169",
+    "moduleId": "practice-governance",
+    "level": 1,
+    "type": "single",
+    "question": "Welche Verwaltungsebene akzeptiert Anforderungen von jedem Azure-Tool oder jeder Azure-API und ermöglicht dir, Ressourcen in einem Azure-Konto zu erstellen, zu aktualisieren und zu löschen?",
+    "options": [
+      "Azure-Befehlszeilenschnittstelle (Azure CLI)",
+      "Azure-Verwaltungsgruppen",
+      "Azure Resource Manager (ARM)",
+      "Azure-Kugel"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Azure Resource Manager ist die zentrale Verwaltungsebene für Azure-Ressourcen.",
+    "tip": "ARM nimmt Anforderungen der Tools/APIs entgegen.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0170",
+    "moduleId": "practice-governance",
+    "level": 1,
+    "type": "multi",
+    "question": "Auf welche beiden Tools kann über Azure Cloud Shell zugegriffen werden, um eine Azure-Umgebung zu verwalten?",
+    "options": [
+      "Azure-Befehlszeilenschnittstelle (Azure CLI)",
+      "Azure PowerShell",
+      "Azure Repos",
+      "Azure Resource Manager (ARM)-Vorlagen"
+    ],
+    "answer": [
+      0,
+      1
+    ],
+    "explanation": "Azure Cloud Shell stellt Azure CLI und Azure PowerShell direkt im Browser bereit.",
+    "tip": "Cloud Shell = CLI + PowerShell.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0171",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "multi",
+    "question": "Welche beiden Tools können Sie verwenden, um einen neuen virtuellen Azure-Computer auf einem mobilen Gerät zu erstellen, auf dem Android ausgeführt wird?",
+    "options": [
+      "PowerShell in Azure Cloud Shell",
+      "Remotedesktop",
+      "SSH",
+      "dem Azure-Portal"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "explanation": "Auf einem mobilen Gerät können Sie das Azure-Portal im Browser nutzen oder über Azure Cloud Shell PowerShell-Befehle ausführen.",
+    "tip": "Mobile VM-Erstellung: Portal oder Cloud Shell.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0172",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Sie verfügen über lokale Server. Sie müssen Azure verwenden, um die Server zentral zu verwalten, zu steuern und zu schützen, ohne sie zu Azure zu migrieren. Was sollten Sie verwenden?",
+    "options": [
+      "Azure Advisor",
+      "Azure Arc",
+      "Azure Monitor",
+      "Azure Service Health"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Azure Arc erweitert Azure-Verwaltung und Governance auf lokale Server und andere Umgebungen, ohne dass diese vollständig nach Azure migriert werden müssen.",
+    "tip": "Azure Arc = Azure-Verwaltung für lokale/hybride Ressourcen.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0173",
+    "moduleId": "practice-monitoring",
+    "level": 1,
+    "type": "single",
+    "question": "Was bietet Empfehlungen, um die Kosten von Azure-Ressourcen zu reduzieren?",
+    "options": [
+      "Azure Advisor",
+      "Azure Übersicht",
+      "Azure Service Health",
+      "Microsoft Defender für Cloud"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Azure Advisor analysiert Ressourcen und gibt Empfehlungen, unter anderem zur Kostenoptimierung.",
+    "tip": "Kostenempfehlungen = Azure Advisor.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0174",
+    "moduleId": "practice-monitoring",
+    "level": 1,
+    "type": "single",
+    "question": "Welcher Azure-Dienst wertet Azure-Ressourcen aus und gibt Empfehlungen zur Verbesserung von Zuverlässigkeit, Sicherheit, Leistung und Kostenreduzierung?",
+    "options": [
+      "Azure Advisor",
+      "Azure Monitor",
+      "Azure Service Health",
+      "Protokolldatenanalyse"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Azure Advisor gibt Empfehlungen zu Zuverlässigkeit, Sicherheit, Leistung, operativer Exzellenz und Kosten.",
+    "tip": "Advisor = persönlicher Cloud-Berater.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0175",
+    "moduleId": "practice-monitoring",
+    "level": 2,
+    "type": "single",
+    "question": "Sie müssen den Bericht zur Ursachenanalyse (Root Cause Analysis, RCA) auf einen Dienstausfall überprüfen, der in der letzten Woche aufgetreten ist. Wo sollten Sie nach dem Bericht suchen?",
+    "options": [
+      "Azure Advisor",
+      "Azure Monitor",
+      "Azure Service Health",
+      "Protokolldatenanalyse"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Azure Service Health informiert über Dienstprobleme und stellt nach größeren Vorfällen RCA-Berichte bereit.",
+    "tip": "RCA nach Azure-Ausfall = Service Health.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0176",
+    "moduleId": "practice-architecture",
+    "level": 1,
+    "type": "single",
+    "question": "Wählen Sie die Antwort aus, die den Satz richtig abschließt: [Antwortmöglichkeiten] sind physisch getrennte Rechenzentren innerhalb einer Azure-Region.",
+    "options": [
+      "Verfügbarkeitszonen",
+      "Geografien",
+      "Regionspaare",
+      "Ressourcengruppen"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Verfügbarkeitszonen sind voneinander getrennte Rechenzentrumsstandorte innerhalb einer Azure-Region.",
+    "tip": "Availability Zone = getrenntes Rechenzentrum in einer Region.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0177",
+    "moduleId": "practice-architecture",
+    "level": 2,
+    "type": "multi",
+    "question": "Welche beiden Azure-Ressourcen können Verfügbarkeitszonen nutzen?",
+    "options": [
+      "Azure SQL-Datenbanken",
+      "Azure-Abonnements",
+      "Ressourcengruppen",
+      "virtuelle Maschinen"
+    ],
+    "answer": [
+      0,
+      3
+    ],
+    "explanation": "Azure SQL-Datenbanken und virtuelle Maschinen können zonenredundant beziehungsweise zonengebunden bereitgestellt werden. Abonnements und Ressourcengruppen sind Verwaltungscontainer.",
+    "tip": "Zonen gelten für Dienste/Ressourcen, nicht für Verwaltungscontainer.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0178",
+    "moduleId": "practice-compute",
+    "level": 2,
+    "type": "single",
+    "question": "Welchen Azure-Computedienst können Sie verwenden, um eine Reihe identischer virtueller Computer bereitzustellen und zu verwalten?",
+    "options": [
+      "Verfügbarkeitsgruppen",
+      "Verfügbarkeitszonen",
+      "Azure-Containerinstanzen",
+      "Azure Virtual Machine Scale Sets"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Virtual Machine Scale Sets stellen Gruppen identischer VMs bereit und können diese zentral skalieren und verwalten.",
+    "tip": "Viele gleiche VMs = VM Scale Sets.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0179",
+    "moduleId": "practice-compute",
+    "level": 1,
+    "type": "single",
+    "question": "Was können Sie zum Ausführen von Code in einer serverlosen Umgebung verwenden?",
+    "options": [
+      "Azure-Containerinstanzen",
+      "Azure-Funktionen",
+      "Azure Logic Apps",
+      "Azure Virtual Desktop"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Azure Functions führt Code ereignisgesteuert aus, ohne dass Sie Server verwalten müssen.",
+    "tip": "Serverless Code = Azure Functions.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0180",
+    "moduleId": "practice-network",
+    "level": 2,
+    "type": "single",
+    "question": "Sie müssen Ressourcen in zwei verschiedenen virtuellen Azure-Netzwerken erlauben, miteinander zu kommunizieren. Was sollten Sie konfigurieren?",
+    "options": [
+      "eine Netzwerksicherheitsgruppe (NSG)",
+      "ein Point-to-Site-VPN",
+      "Peering-Vereinbarung",
+      "Serviceendpunkte"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "VNet Peering verbindet virtuelle Netzwerke, sodass Ressourcen in den VNets miteinander kommunizieren können.",
+    "tip": "VNet zu VNet in Azure = Peering.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0181",
+    "moduleId": "practice-network",
+    "level": 2,
+    "type": "multi",
+    "question": "Welche beiden Dienste können Sie verwenden, um eine Netzwerkkonnektivität zwischen einem lokalen Netzwerk und Azure-Ressourcen herzustellen?",
+    "options": [
+      "Azure Bastion",
+      "Azure Firewall",
+      "Azure VPN-Gateway",
+      "ExpressRoute"
+    ],
+    "answer": [
+      2,
+      3
+    ],
+    "explanation": "Azure VPN Gateway verbindet lokale Netzwerke per VPN mit Azure. ExpressRoute bietet eine private Verbindung über einen Konnektivitätsanbieter.",
+    "tip": "On-prem zu Azure = VPN Gateway oder ExpressRoute.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0182",
+    "moduleId": "practice-compute",
+    "level": 1,
+    "type": "single",
+    "question": "Was können Sie verwenden, um Mac- und Android-Benutzern Zugriff auf eine Windows-Umgebung zu gewähren, die Windows-basierte Anwendungen ausführt?",
+    "options": [
+      "Azure-Containerinstanzen",
+      "Azure-Funktionen",
+      "Azure Logic Apps",
+      "Azure Virtual Desktop"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Azure Virtual Desktop stellt Windows-Desktops und -Apps aus Azure bereit, auf die verschiedene Gerätetypen zugreifen können.",
+    "tip": "Windows-Apps auf anderen Geräten = Azure Virtual Desktop.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0183",
+    "moduleId": "practice-network",
+    "level": 2,
+    "type": "single",
+    "question": "Sie müssen ein lokales Netzwerk mit einem virtuellen Azure-Netzwerk mithilfe eines Standort-zu-Standort-VPN (S2S) verbinden. Welches Azure-Objekt stellt das lokale Netzwerk dar?",
+    "options": [
+      "Ein lokales Netzwerkgateway",
+      "eine Netzwerksicherheitsgruppe (NSG)",
+      "Einen Routenfilter",
+      "eine VNet-zu-VNet-Verbindung"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Ein Local Network Gateway beschreibt in Azure das lokale Netzwerk, inklusive öffentlicher IP-Adresse und Adressräume.",
+    "tip": "On-prem-Seite bei S2S = Local Network Gateway.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0184",
+    "moduleId": "practice-storage",
+    "level": 2,
+    "type": "single",
+    "question": "Welche Azure Blob Storage Tier speichert Daten offline und bietet die niedrigsten Speicherkosten und die höchsten Kosten für den Zugriff auf Daten?",
+    "options": [
+      "Archivieren",
+      "Kühl",
+      "Heiß",
+      "Kalt"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Die Archive-Ebene ist für selten benötigte Daten gedacht. Sie ist günstig beim Speichern, aber teuer und langsamer beim Wiederherstellen/Zugreifen.",
+    "tip": "Archive = billig speichern, teuer/langsam abrufen.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0185",
+    "moduleId": "practice-storage",
+    "level": 1,
+    "type": "single",
+    "question": "Welcher Speicherdienst bietet vollständig verwaltete Dateifreigaben in der Cloud, auf die mithilfe des SMB-Protokolls zugegriffen werden kann?",
+    "options": [
+      "Azure Disk Storage",
+      "Azure Files",
+      "Azure Queue Storage",
+      "Azure-Tabellenspeicher"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Azure Files stellt verwaltete Dateifreigaben bereit, die über SMB eingebunden werden können.",
+    "tip": "SMB-Dateifreigabe in Azure = Azure Files.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0186",
+    "moduleId": "practice-storage",
+    "level": 2,
+    "type": "multi",
+    "question": "Welche beiden Szenarien sind häufige Anwendungsfälle für Azure Blob Storage?",
+    "options": [
+      "Hosten von ASPX-Dateien für eine Website",
+      "Bereitstellen einer Dateispeicherfreigabe für den Zugriff als virtuelles Laufwerk auf mehreren virtuellen Computern",
+      "Direktes Bereitstellen von Bildern oder Dokumenten an einen Browser",
+      "Speichern von Daten für Sicherung und Wiederherstellung"
+    ],
+    "answer": [
+      2,
+      3
+    ],
+    "explanation": "Blob Storage eignet sich für unstrukturierte Daten wie Bilder, Dokumente, Backups und Archive. Dateifreigaben über SMB sind dagegen Azure Files.",
+    "tip": "Blob = Objekte wie Bilder, Dokumente, Backups.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0187",
+    "moduleId": "practice-storage",
+    "level": 1,
+    "type": "single",
+    "question": "Welche Azure Blob Storage-Dienstebene hat die höchsten Speicherkosten und die schnellsten Zugriffszeiten zum Lesen und Schreiben von Daten?",
+    "options": [
+      "Archivieren",
+      "Kühl",
+      "Heiß",
+      "Kalt"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Die Hot-Ebene ist für häufig genutzte Daten gedacht. Sie hat höhere Speicherkosten, dafür schnellere und günstigere Zugriffe.",
+    "tip": "Hot = häufig genutzt, schneller Zugriff.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0188",
+    "moduleId": "practice-identity",
+    "level": 2,
+    "type": "single",
+    "question": "Was können Sie verwenden, um sicherzustellen, dass ein Benutzer nur von kompatiblen Geräten aus auf Anwendungen zugreifen kann?",
+    "options": [
+      "Bedingter Zugriff",
+      "Hybrididentität",
+      "mehrstufige Authentifizierung (MFA)",
+      "Einmaliges Anmelden (Single Sign-On, SSO)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Bedingter Zugriff kann Regeln verwenden, z. B. Zugriff nur von kompatiblen oder verwalteten Geräten zu erlauben.",
+    "tip": "Conditional Access = Wenn-Bedingung-dann-Zugriff.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0189",
+    "moduleId": "practice-identity",
+    "level": 2,
+    "type": "single",
+    "question": "Was müssen Sie zum Erstellen von Hybrididentitäten in einem Microsoft Entra-Mandanten verwenden?",
+    "options": [
+      "Microsoft Entra Connect-Synchronisierung",
+      "Azure Key Vault",
+      "Azure Resource Manager (ARM)",
+      "Bedingter Zugriff"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Microsoft Entra Connect-Synchronisierung verbindet lokale Identitäten mit Microsoft Entra ID und ermöglicht Hybrididentitäten.",
+    "tip": "Hybrididentität = Entra Connect Sync.",
+    "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
   }
 ]
