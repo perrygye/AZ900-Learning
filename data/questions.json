@@ -3606,5 +3606,367 @@
     "explanation": "Microsoft Entra Connect-Synchronisierung verbindet lokale Identitäten mit Microsoft Entra ID und ermöglicht Hybrididentitäten.",
     "tip": "Hybrididentität = Entra Connect Sync.",
     "source": "Microsoft Learn Praxisbewertung AZ-900 Screenshots, ergänzt am 2026-07-08"
+  },
+  {
+    "id": "q0190",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "In Cloud Computing können Sie Anwendungen in regionalen Rechenzentren auf der ganzen Welt bereitstellen. Welche Antwort schließt den Satz richtig ab?",
+    "options": [
+      "Notfallwiederherstellung",
+      "Elastizität",
+      "Geografischer Standort",
+      "Hochverfügbarkeit"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Geografische Verteilung bedeutet, Apps und Daten in regionalen Rechenzentren weltweit bereitzustellen, damit Benutzer nahe an ihrer Region bedient werden können.",
+    "tip": "Weltweit/Region = geografischer Standort",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0191",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Ein Beispiel für [Antwortauswahl] ist die automatische Skalierung einer Anwendung, damit die Anwendung über die Ressourcen verfügt, die für Kundenanforderungen erforderlich sind.",
+    "options": [
+      "Agilität",
+      "Elastizität",
+      "Geoverteilung",
+      "Hochverfügbarkeit"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Elastizität beschreibt das automatische Hoch- und Herunterskalieren von Ressourcen nach Bedarf.",
+    "tip": "Auto-Skalierung = Elastizität",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0192",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Wovon hängt die hohe Verfügbarkeit in einer öffentlichen Cloud-Umgebung ab?",
+    "options": [
+      "Investitionsausgaben",
+      "Cloudbasierte Aufbewahrungsgrenzwerte für Sicherungen",
+      "Service-Level-Vereinbarung (SLA)",
+      "die vertikale Skalierbarkeit einer App"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Unterschiedliche Dienste und Dienstebenen haben unterschiedliche SLAs. Die SLA beschreibt die zugesagte Verfügbarkeit.",
+    "tip": "Verfügbarkeit messen = SLA",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0193",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "Schnelle Bereitstellung und Konfiguration von cloudbasierten Ressourcen, wenn sich die Geschäftsanforderungen ändern, wird wie genannt?",
+    "options": [
+      "Agilität",
+      "Elastizität",
+      "Hochverfügbarkeit",
+      "Skalierbarkeit"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Agilität bedeutet, Cloudressourcen schnell bereitstellen und anpassen zu können, wenn sich Anforderungen ändern.",
+    "tip": "Schnell reagieren = Agilität",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0194",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "single",
+    "question": "[Antwortmöglichkeit] bezieht sich auf vorab anfallende Kosten, z. B. Hardwarekäufe.",
+    "options": [
+      "Ein verbrauchsbasiertes Modell",
+      "Investitionsausgaben",
+      "Elastizität",
+      "Operative Ausgaben"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Investitionsausgaben sind Vorabkosten, zum Beispiel für Hardware. Operative Ausgaben fallen laufend bei Nutzung an.",
+    "tip": "Vorab kaufen = CapEx / Investitionsausgaben",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0195",
+    "moduleId": "practice-cloud",
+    "level": 1,
+    "type": "multi",
+    "question": "Welche beiden Attribute sind Merkmale des Private Cloud-Bereitstellungsmodells?",
+    "options": [
+      "Anwendungen können schnell bereitgestellt und aufgehoben werden.",
+      "Hardware muss erworben werden.",
+      "Organisationen zahlen nur für ihre Nutzung.",
+      "Das Unternehmen hat die vollständige Kontrolle über physische Ressourcen und Sicherheit."
+    ],
+    "answer": [
+      1,
+      3
+    ],
+    "explanation": "In einer privaten Cloud beschafft und betreibt die Organisation die Hardware selbst und behält die Kontrolle über Ressourcen und Sicherheit.",
+    "tip": "Private Cloud = eigene Hardware + Kontrolle",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0196",
+    "moduleId": "practice-service",
+    "level": 1,
+    "type": "single",
+    "question": "Welches Clouddienstmodell bietet Ihnen die meiste Kontrolle?",
+    "options": [
+      "IaaS (Infrastructure-as-a-Service)",
+      "PaaS (Platform-as-a-Service)",
+      "SaaS (Software-as-a-Service)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "IaaS bietet die meiste Kontrolle, weil Sie Betriebssystem, Anwendungen und viele Konfigurationen selbst verwalten.",
+    "tip": "Meiste Kontrolle = IaaS",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0197",
+    "moduleId": "practice-service",
+    "level": 1,
+    "type": "single",
+    "question": "Wer verwendet das Infrastrukturmodell als IaaS-Cloud-Dienst?",
+    "options": [
+      "Azure App Services",
+      "Azure Cosmos DB (ein Microsoft-Datenbankdienst)",
+      "Virtuelle Azure-Computer",
+      "Microsoft 365"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Virtuelle Azure-Computer sind ein IaaS-Angebot. App Services und Cosmos DB sind eher PaaS, Microsoft 365 ist SaaS.",
+    "tip": "VMs = IaaS",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0198",
+    "moduleId": "practice-service",
+    "level": 1,
+    "type": "multi",
+    "question": "Welche beiden Komponenten in einer Platform as a Service (PaaS)-Modell sind die Verantwortung des Clouddienstanbieters?",
+    "options": [
+      "Informationen und Daten",
+      "Betriebssystem",
+      "physisches Netzwerk",
+      "Benutzerzugriff"
+    ],
+    "answer": [
+      1,
+      2
+    ],
+    "explanation": "Bei PaaS verwaltet der Anbieter unter anderem Betriebssystem und physische Netzwerkinfrastruktur. Daten und Benutzerzugriff bleiben Kundenthemen.",
+    "tip": "PaaS-Anbieter = Plattform + Infrastruktur",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0199",
+    "moduleId": "practice-costs",
+    "level": 2,
+    "type": "single",
+    "question": "Sie verfügen über einen virtuellen Azure-Computer, auf den täglich nur zwischen 9:00 und 17:00 Uhr zugegriffen wird. Was sollten Sie tun, um Kosten zu minimieren, aber die zugeordneten Festplatten und Daten zu erhalten?",
+    "options": [
+      "Freigeben des virtuellen Computers, wenn er nicht benötigt wird",
+      "Löschen des virtuellen Computers, wenn er nicht benötigt wird",
+      "Implementieren Sie Privileged Identity Management.",
+      "Ändern der Größe des virtuellen Computers auf kleinere Größe"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Wenn eine VM nicht benötigt wird, kann sie freigegeben/deallocated werden. So sparen Sie Rechenkosten, während Datenträger und Daten erhalten bleiben.",
+    "tip": "VM aus, Daten bleiben = freigeben/deallocate",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0200",
+    "moduleId": "practice-costs",
+    "level": 2,
+    "type": "multi",
+    "question": "Welche beiden Features stehen mit Azure Cost Management + Billing zur Verfügung?",
+    "options": [
+      "Erstellen und Verwalten von Budgets.",
+      "Schätzen Sie die Gesamtbetriebskosten, bevor Ressourcen bereitgestellt werden.",
+      "Generieren Sie historische Berichte und prognostizieren Sie die zukünftige Nutzung.",
+      "Geben Sie ermäßigte Preise an, wenn Sie im Voraus bezahlen."
+    ],
+    "answer": [
+      0,
+      2
+    ],
+    "explanation": "Azure Cost Management + Billing kann Budgets erstellen und verwalten sowie historische Kostenberichte und Prognosen zur zukünftigen Nutzung bereitstellen.",
+    "tip": "Cost Management = Budgets + Berichte/Forecast",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0201",
+    "moduleId": "practice-costs",
+    "level": 2,
+    "type": "single",
+    "question": "Sie müssen die Ressourcenkosten verschiedenen Gruppen innerhalb einer Organisation zuordnen, ohne den Standort der Ressourcen zu ändern. Was sollten Sie verwenden?",
+    "options": [
+      "Verwaltungseinheiten",
+      "Ressourcengruppen",
+      "Ressourcenkennzeichnungen",
+      "Abonnements"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Ressourcenkennzeichnungen/Tags helfen, Kosten logisch nach Abteilung, Projekt oder Umgebung zu gruppieren, ohne Ressourcen zu verschieben.",
+    "tip": "Kosten zuordnen = Tags",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0202",
+    "moduleId": "practice-costs",
+    "level": 2,
+    "type": "single",
+    "question": "Sie verwenden [Antwortauswahl], um Azure-Ressourcen zu organisieren und Kosten nach Abteilung oder Projekt nachzuverfolgen.",
+    "options": [
+      "Verwaltungseinheiten",
+      "Verfügbarkeitssätze",
+      "Azure-Richtlinie",
+      "Tags"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Tags sind Name-Wert-Paare, die Azure-Ressourcen logisch organisieren und Kostenauswertungen nach Abteilung oder Projekt ermöglichen.",
+    "tip": "Name-Wert-Paare = Tags",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0203",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Was können Sie auf einen virtuellen Azure-Computer anwenden, um sicherzustellen, dass Benutzer die Ressource nicht löschen können?",
+    "options": [
+      "eine Sperre",
+      "ein Etikett",
+      "eine vom Benutzer zugewiesene verwaltete Identität",
+      "Bedingter Zugriff"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Eine Ressourcensperre kann verhindern, dass eine Ressource gelöscht oder geändert wird. Tags organisieren nur, Conditional Access schützt Zugriffe auf Apps.",
+    "tip": "Nicht löschen = Ressourcensperre",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0204",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Was können Sie verwenden, um sicherzustellen, dass ein Entwicklungsteam nur virtuelle Computer mit einer bestimmten Größe erstellen kann?",
+    "options": [
+      "Ressourcensperren",
+      "Azure-Richtlinie",
+      "Rahmenwerk zur Cloud-Einführung",
+      "Bedingter Zugriff"
+    ],
+    "answer": [
+      1
+    ],
+    "explanation": "Azure Policy kann Regeln erzwingen, zum Beispiel erlaubte VM-Größen. Nicht passende Ressourcen können verhindert oder als nicht compliant markiert werden.",
+    "tip": "Erlaubte Größen erzwingen = Azure Policy",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0205",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Was können Sie verwenden, um die Ressourcen zu definieren, die Sie in einem deklarativen JSON-Format bereitstellen möchten?",
+    "options": [
+      "Azure-Befehlszeilenschnittstelle (Azure CLI)",
+      "Azure PowerShell",
+      "Azure Repos",
+      "Azure Resource Manager (ARM)-Vorlagen"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "ARM-Vorlagen beschreiben Azure-Ressourcen deklarativ im JSON-Format und ermöglichen wiederholbare Bereitstellungen.",
+    "tip": "JSON + deklarativ = ARM-Template",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0206",
+    "moduleId": "practice-governance",
+    "level": 2,
+    "type": "single",
+    "question": "Sie verfügen über ein Team von Linux-Administratoren, die die Ressourcen in Azure verwalten müssen. Das Team möchte die Bash-Shell verwenden. Welche Empfehlung sollten Sie aussprechen?",
+    "options": [
+      "Azure-Befehlszeilenschnittstelle (Azure CLI)",
+      "Azure PowerShell",
+      "ARM-Vorlage (Azure Resource Manager)"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Azure CLI eignet sich sehr gut für die Bash-Shell und ist für Linux-Administratoren meist naheliegend.",
+    "tip": "Bash/Linux = Azure CLI",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0207",
+    "moduleId": "practice-management",
+    "level": 2,
+    "type": "single",
+    "question": "Sie müssen eine benutzerdefinierte Lösung erstellen, die Schwellenwerte verwendet, um die automatische Skalierungsfunktion auszulösen. Was muss die Lösung enthalten?",
+    "options": [
+      "Anwendungseinblicke",
+      "Azure Advisor - Ihr persönlicher Cloud-Berater von Microsoft.",
+      "Azure Monitor",
+      "Azure Service Health (Azure-Dienstgesundheit)"
+    ],
+    "answer": [
+      2
+    ],
+    "explanation": "Azure Monitor sammelt Metriken und Protokolle, zum Beispiel CPU-Prozentwerte. Diese Daten können Schwellenwerte für Autoscaling auslösen.",
+    "tip": "Metriken + Schwellenwerte = Azure Monitor",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
+  },
+  {
+    "id": "q0208",
+    "moduleId": "practice-management",
+    "level": 2,
+    "type": "single",
+    "question": "Was können Sie verwenden, um Benachrichtigungen über einen Ausfall in einer bestimmten Azure-Region zu erhalten?",
+    "options": [
+      "Azure Advisor - Ihr persönlicher Cloud-Berater von Microsoft.",
+      "Azure Monitor",
+      "Azure-Support + Problembehandlung",
+      "Azure Service Health (Azure-Dienstgesundheit)"
+    ],
+    "answer": [
+      3
+    ],
+    "explanation": "Azure Service Health informiert über Azure-Dienstprobleme, Wartungen und regionale Ausfälle, die Ihre Ressourcen betreffen können.",
+    "tip": "Regionale Azure-Störung = Service Health",
+    "source": "Microsoft Learn AZ-900 Praxisbewertung"
   }
 ]

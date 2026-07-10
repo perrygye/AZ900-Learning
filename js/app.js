@@ -1,7 +1,7 @@
 let Q=[],M=[],F=[],queue=[],idx=0,mode='learn',session=[],answered=false,card=0,flipped=false;
 let S=JSON.parse(localStorage.getItem('az900_state')||'{"xp":0,"streak":0,"answered":{},"wrong":[],"dark":false,"unlockedMsg":{}}');
 if(S.dark)document.body.classList.add('dark'); const $=id=>document.getElementById(id);
-Promise.all([fetch('data/questions.json').then(r=>r.json()),fetch('data/modules.json').then(r=>r.json()),fetch('data/flashcards.json').then(r=>r.json())]).then(d=>{[Q,M,F]=d;dashboard()});
+Promise.all([fetch('data/questions.json?v=20260710-2',{cache:'no-store'}).then(r=>r.json()),fetch('data/modules.json?v=20260710-2',{cache:'no-store'}).then(r=>r.json()),fetch('data/flashcards.json?v=20260710-2',{cache:'no-store'}).then(r=>r.json())]).then(d=>{[Q,M,F]=d;dashboard()});
 function save(){localStorage.setItem('az900_state',JSON.stringify(S))}function show(id){document.querySelectorAll('.view').forEach(v=>v.classList.remove('active'));$(id).classList.add('active')}
 function pct(){return Object.keys(S.answered).length/Q.length}function stage(){let p=pct()*100;return p>=60?'Endgame':p>=35?'V3':p>=15?'V2':'V1'}function title(id){return M.find(m=>m.id==id)?.title||id}
 function available(q){return (M.find(m=>m.id==q.moduleId)?.unlock||0)<=pct()*100}function shuffle(a){return [...a].sort(()=>Math.random()-.5)}function letters(a){return a.map(i=>String.fromCharCode(65+i)).join(', ')}function same(a,b){a=[...a].sort();b=[...b].sort();return a.length==b.length&&a.every((v,i)=>v==b[i])}
