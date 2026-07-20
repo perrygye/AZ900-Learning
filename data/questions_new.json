@@ -1,0 +1,135 @@
+[
+  {
+    "id": "q0209",
+    "moduleId": "practice-security",
+    "level": 1,
+    "type": "single",
+    "question": "Azure Blob Storage eignet sich am besten zum Speichern großer Mengen unstrukturierter Daten.",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Monitor",
+      "Azure Policy",
+      "Azure Advisor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Blob Storage ist für Bilder, Videos, Backups und Dokumente optimiert.",
+    "tip": "Blob = unstrukturierte Daten.",
+    "source": "Microsoft Learn Screenshot"
+  },
+  {
+    "id": "q0210",
+    "moduleId": "practice-security",
+    "level": 1,
+    "type": "single",
+    "question": "Welcher Azure-Dienst stellt vollständig verwaltete Dateifreigaben bereit?",
+    "options": [
+      "Azure Files",
+      "Azure Monitor",
+      "Azure Policy",
+      "Azure Advisor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Azure Files bietet SMB-Dateifreigaben in Azure.",
+    "tip": "Files = Netzlaufwerk in Azure.",
+    "source": "Microsoft Learn Screenshot"
+  },
+  {
+    "id": "q0211",
+    "moduleId": "practice-security",
+    "level": 1,
+    "type": "single",
+    "question": "Welcher Dienst eignet sich zum Speichern von Bildern für eine Website?",
+    "options": [
+      "Azure Blob Storage",
+      "Azure Monitor",
+      "Azure Policy",
+      "Azure Advisor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Blob Storage ist die Standardlösung für statische Dateien.",
+    "tip": "Website-Bilder = Blob.",
+    "source": "Microsoft Learn Screenshot"
+  },
+  {
+    "id": "q0212",
+    "moduleId": "practice-security",
+    "level": 1,
+    "type": "single",
+    "question": "Was ist ein Prinzip von Defense in Depth?",
+    "options": [
+      "Mehrere Sicherheitsebenen",
+      "Azure Monitor",
+      "Azure Policy",
+      "Azure Advisor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Mehrere Schutzschichten erhöhen die Sicherheit.",
+    "tip": "Nie nur eine Schutzmaßnahme.",
+    "source": "Microsoft Learn Screenshot"
+  },
+  {
+    "id": "q0213",
+    "moduleId": "practice-security",
+    "level": 1,
+    "type": "single",
+    "question": "Welcher Vorteil wird durch Single Sign-On erreicht?",
+    "options": [
+      "Einmal anmelden, mehrere Anwendungen nutzen",
+      "Azure Monitor",
+      "Azure Policy",
+      "Azure Advisor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "SSO reduziert Passwortabfragen.",
+    "tip": "Ein Login – viele Apps.",
+    "source": "Microsoft Learn Screenshot"
+  },
+  {
+    "id": "q0214",
+    "moduleId": "practice-security",
+    "level": 1,
+    "type": "single",
+    "question": "Was kann Conditional Access erzwingen?",
+    "options": [
+      "Multi-Faktor-Authentifizierung (MFA)",
+      "Azure Monitor",
+      "Azure Policy",
+      "Azure Advisor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Conditional Access setzt Regeln wie MFA oder Standort um.",
+    "tip": "Wenn Bedingung erfüllt → Richtlinie.",
+    "source": "Microsoft Learn Screenshot"
+  },
+  {
+    "id": "q0215",
+    "moduleId": "practice-security",
+    "level": 1,
+    "type": "single",
+    "question": "Welcher Dienst stellt Domänendienste ohne eigene Domänencontroller bereit?",
+    "options": [
+      "Microsoft Entra Domain Services",
+      "Azure Monitor",
+      "Azure Policy",
+      "Azure Advisor"
+    ],
+    "answer": [
+      0
+    ],
+    "explanation": "Verwaltete Domänendienste in Azure.",
+    "tip": "Entra DS = AD ohne eigene DCs.",
+    "source": "Microsoft Learn Screenshot"
+  }
+]
